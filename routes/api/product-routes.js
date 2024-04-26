@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { at } = require('lodash');
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
@@ -11,7 +10,6 @@ router.get('/', async (req, res) => {
   try {
     const allProducts = await Product.findAll({
       include: [{ model: Category }, { model: Tag }],
-      attributes: { exclude: ['category_id'] },
     });
     res.status(200).json(allProducts);
   } catch (err) {
