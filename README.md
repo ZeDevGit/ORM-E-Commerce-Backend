@@ -12,6 +12,8 @@ An application to aid in the managing of an Ecommerce business.
 
 - [Demonstration](#demonstration)
 
+- [Credits](#credits)
+
 - [Questions](#questions)
 
 
@@ -49,6 +51,12 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Demonstration
 
+
+https://github.com/ZeDevGit/ORM-E-Commerce-Backend/assets/42353819/70f4ec8a-21b9-4081-820a-cb5c9d92375e
+
+
+## Credits
+Edward Lawrence
 
 ## License
  ![Empty Badge](https://img.shields.io/badge/MIT-License-blue)
